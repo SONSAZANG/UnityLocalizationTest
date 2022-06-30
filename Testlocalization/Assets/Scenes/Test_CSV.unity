@@ -666,7 +666,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 28}
+  m_SizeDelta: {x: 0, y: 110}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &329788287
 GameObject:
@@ -680,6 +680,7 @@ GameObject:
   - component: {fileID: 329788291}
   - component: {fileID: 329788290}
   - component: {fileID: 329788289}
+  - component: {fileID: 329788292}
   m_Layer: 5
   m_Name: LanguageDropdown
   m_TagString: Untagged
@@ -800,6 +801,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329788287}
   m_CullTransparentMesh: 1
+--- !u!114 &329788292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329788287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6d4609366a3b049a42ad02f0c0b64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &435635909
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +825,7 @@ GameObject:
   - component: {fileID: 435635913}
   - component: {fileID: 435635912}
   - component: {fileID: 435635911}
+  - component: {fileID: 435635914}
   m_Layer: 5
   m_Name: ExmapleDropdown
   m_TagString: Untagged
@@ -938,6 +952,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435635909}
   m_CullTransparentMesh: 1
+--- !u!114 &435635914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435635909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab51e316d884f64a8f27f27f1c733f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  dropdownKey:
+  - guest book
+  - Edit
+  - meumee
 --- !u!1 &547294619
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,6 +1012,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd676a4aac2e97243927e8938a7fe3ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curLangIndex: 1
+  Langs:
+  - lang: English
+    langLocalize: English
+    value:
+    - guest book
+    - Edit
+    - meumee
+  - lang: "Korean\r"
+    langLocalize: "\uD55C\uAD6D\uC778\r"
+    value:
+    - "\uBC29\uBA85\uB85D\r"
+    - "\uBBD0\uD3B8\uC9D1\r"
+    - "\uBBC0\uBBF8"
 --- !u!1 &566171217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1097,7 +1142,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: 0, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &589721294
 MonoBehaviour:
@@ -1693,6 +1738,7 @@ GameObject:
   - component: {fileID: 1078304829}
   - component: {fileID: 1078304831}
   - component: {fileID: 1078304830}
+  - component: {fileID: 1078304832}
   m_Layer: 5
   m_Name: ExampleText
   m_TagString: Untagged
@@ -1761,6 +1807,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078304828}
   m_CullTransparentMesh: 1
+--- !u!114 &1078304832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078304828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cab51e316d884f64a8f27f27f1c733f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: Edit
+  dropdownKey: []
 --- !u!1 &1107809895
 GameObject:
   m_ObjectHideFlags: 0
@@ -2167,7 +2227,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: 0, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640640390
 MonoBehaviour:
@@ -2859,7 +2919,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 28}
+  m_SizeDelta: {x: 0, y: 110}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &2051796590
 GameObject:

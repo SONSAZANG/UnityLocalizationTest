@@ -1,20 +1,20 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Unity/Testlocalization/Packages/manifest.json
+    m_FilePath: C:/Users/kekek/Documents/UnityLocalizationTest/Testlocalization/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637921499989121597
-    m_Hash: 1641546182
+      ticks: 637921732263153813
+    m_Hash: 997653803
   m_LockFileStatus:
-    m_FilePath: C:/Unity/Testlocalization/Packages/packages-lock.json
+    m_FilePath: C:/Users/kekek/Documents/UnityLocalizationTest/Testlocalization/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637921500036816363
-    m_Hash: 1049041275
+      ticks: 637921732263253876
+    m_Hash: 3229026388
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -168,7 +168,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -287,7 +287,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -382,7 +382,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -450,12 +450,155 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
+    - packageId: com.unity.localization@1.3.2
+      testable: 0
+      isDirectDependency: 1
+      version: 1.3.2
+      source: 1
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.localization@1.3.2
+      assetPath: Packages/com.unity.localization
+      name: com.unity.localization
+      displayName: Localization
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: "Use the Localization package to easily configure localization
+        settings for your application.\n\nAdd support for multiple languages and
+        regional variants, including:\n\n\u2022 String localization: Set different
+        strings to display based on locale. Use the Smart Strings feature to add
+        logic to automatically replace specific strings, such as placeholders and
+        plurals.\n\u2022 Asset localization: Use a different asset (such as a texture,
+        model, or audio file) based on a locale.\n\u2022 Pseudo-localization: Test
+        how your project will adapt to different localizations at an early stage,
+        before adding your translations.\n\u2022 Import and export localization data
+        to XLIFF, CSV and Google Sheets.\n\nAdd localization to your projects using
+        the Localization package to help make your applications more accessible to
+        a wider audience."
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.2.3-preview
+        - 0.3.1-preview
+        - 0.3.2-preview
+        - 0.4.0-preview
+        - 0.5.0-preview
+        - 0.5.1-preview
+        - 0.6.0-preview
+        - 0.6.1-preview
+        - 0.7.1-preview
+        - 0.8.0-preview
+        - 0.8.1-preview
+        - 0.9.0-preview
+        - 0.10.0-preview
+        - 0.11.0-preview
+        - 0.11.1-preview
+        - 1.0.0-pre.8
+        - 1.0.0-pre.9
+        - 1.0.0-pre.10
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.1.0
+        - 1.1.1
+        - 1.2.1
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0-exp.1
+        compatible:
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.2.3-preview
+        - 0.3.1-preview
+        - 0.3.2-preview
+        - 0.4.0-preview
+        - 0.5.0-preview
+        - 0.5.1-preview
+        - 0.6.0-preview
+        - 0.6.1-preview
+        - 0.7.1-preview
+        - 0.8.0-preview
+        - 0.8.1-preview
+        - 0.9.0-preview
+        - 0.10.0-preview
+        - 0.11.0-preview
+        - 0.11.1-preview
+        - 1.0.0-pre.8
+        - 1.0.0-pre.9
+        - 1.0.0-pre.10
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        - 1.0.4
+        - 1.0.5
+        - 1.1.0
+        - 1.1.1
+        - 1.2.1
+        - 1.3.1
+        - 1.3.2
+        - 1.4.0-exp.1
+        verified: 
+      dependencies:
+      - name: com.unity.addressables
+        version: 1.19.19
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.2
+      resolvedDependencies:
+      - name: com.unity.addressables
+        version: 1.19.19
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.19.6
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.2
+      keywords:
+      - localization
+      - locale
+      - language
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637903034620000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.localization.git
+        revision: 160f3ff57b5fca932e885ad83f581a8544955fbf
+        path: 
     - packageId: com.unity.test-framework@1.1.24
       testable: 0
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -559,7 +702,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.4
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.textmeshpro@3.0.4
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -729,7 +872,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.7
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.timeline@1.4.7
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.timeline@1.4.7
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -896,7 +1039,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -959,7 +1102,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1007,7 +1150,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1055,7 +1198,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1103,7 +1246,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1151,7 +1294,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1199,7 +1342,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1251,7 +1394,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1307,7 +1450,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1356,7 +1499,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1404,7 +1547,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1452,7 +1595,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1500,7 +1643,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1548,7 +1691,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1596,7 +1739,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1648,7 +1791,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1696,7 +1839,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1752,7 +1895,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1804,7 +1947,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1852,7 +1995,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1916,7 +2059,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1964,7 +2107,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2020,7 +2163,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2068,7 +2211,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2124,7 +2267,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2180,7 +2323,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2236,7 +2379,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2308,7 +2451,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2360,7 +2503,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2420,7 +2563,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2482,7 +2625,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2530,7 +2673,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2590,7 +2733,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2642,7 +2785,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Unity\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2701,7 +2844,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Unity\Testlocalization\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2761,7 +2904,515 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.addressables@1.19.19
+      testable: 0
+      isDirectDependency: 0
+      version: 1.19.19
+      source: 1
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.addressables@1.19.19
+      assetPath: Packages/com.unity.addressables
+      name: com.unity.addressables
+      displayName: Addressables
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The Addressable Asset System allows the developer to ask for
+        an asset via its address. Once an asset (e.g. a prefab) is marked "addressable",
+        it generates an address which can be called from anywhere. Wherever the asset
+        resides (local or remote), the system will locate it and its dependencies,
+        then return it.
+
+
+        Use ''Window->Asset Management->Addressables''
+        to begin working with the system.
+
+
+        Addressables use asynchronous
+        loading to support loading from any location with any collection of dependencies.
+        Whether you have been using direct references, traditional asset bundles,
+        or Resource folders, addressables provide a simpler way to make your game
+        more dynamic. Addressables simultaneously opens up the world of asset bundles
+        while managing all the complexity.
+
+
+        For usage samples, see github.com/Unity-Technologies/Addressables-Sample'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.8-preview
+        - 0.0.12-preview
+        - 0.0.15-preview
+        - 0.0.16-preview
+        - 0.0.18-preview
+        - 0.0.22-preview
+        - 0.0.26-preview
+        - 0.0.27-preview
+        - 0.1.2-preview
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.3.5-preview
+        - 0.4.6-preview
+        - 0.4.8-preview
+        - 0.5.2-preview
+        - 0.5.3-preview
+        - 0.6.6-preview
+        - 0.6.7-preview
+        - 0.6.8-preview
+        - 0.7.4-preview
+        - 0.7.5-preview
+        - 0.8.4-preview
+        - 0.8.6-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5
+        - 1.1.7
+        - 1.1.9
+        - 1.1.10
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.3
+        - 1.3.8
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.2
+        - 1.7.4
+        - 1.7.5
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.9.2
+        - 1.10.0
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.2
+        - 1.15.1
+        - 1.16.1
+        - 1.16.6
+        - 1.16.7
+        - 1.16.8
+        - 1.16.10
+        - 1.16.12
+        - 1.16.13
+        - 1.16.15
+        - 1.16.16
+        - 1.16.19
+        - 1.17.0-preview
+        - 1.17.2-preview
+        - 1.17.4-preview
+        - 1.17.5-preview
+        - 1.17.6-preview
+        - 1.17.13
+        - 1.17.15
+        - 1.17.17
+        - 1.18.2
+        - 1.18.4
+        - 1.18.9
+        - 1.18.11
+        - 1.18.13
+        - 1.18.15
+        - 1.18.16
+        - 1.18.19
+        - 1.19.4
+        - 1.19.6
+        - 1.19.9
+        - 1.19.11
+        - 1.19.13
+        - 1.19.14
+        - 1.19.15
+        - 1.19.17
+        - 1.19.18
+        - 1.19.19
+        - 1.20.0
+        - 1.20.3
+        compatible:
+        - 0.0.8-preview
+        - 0.0.12-preview
+        - 0.0.15-preview
+        - 0.0.16-preview
+        - 0.0.18-preview
+        - 0.0.22-preview
+        - 0.0.26-preview
+        - 0.0.27-preview
+        - 0.1.2-preview
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.3.5-preview
+        - 0.4.6-preview
+        - 0.4.8-preview
+        - 0.5.2-preview
+        - 0.5.3-preview
+        - 0.6.6-preview
+        - 0.6.7-preview
+        - 0.6.8-preview
+        - 0.7.4-preview
+        - 0.7.5-preview
+        - 0.8.4-preview
+        - 0.8.6-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5
+        - 1.1.7
+        - 1.1.9
+        - 1.1.10
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.3
+        - 1.3.8
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.2
+        - 1.7.4
+        - 1.7.5
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.9.2
+        - 1.10.0
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.2
+        - 1.15.1
+        - 1.16.1
+        - 1.16.6
+        - 1.16.7
+        - 1.16.8
+        - 1.16.10
+        - 1.16.12
+        - 1.16.13
+        - 1.16.15
+        - 1.16.16
+        - 1.16.19
+        - 1.17.0-preview
+        - 1.17.2-preview
+        - 1.17.4-preview
+        - 1.17.5-preview
+        - 1.17.6-preview
+        - 1.17.13
+        - 1.17.15
+        - 1.17.17
+        - 1.18.2
+        - 1.18.4
+        - 1.18.9
+        - 1.18.11
+        - 1.18.13
+        - 1.18.15
+        - 1.18.16
+        - 1.18.19
+        - 1.19.4
+        - 1.19.6
+        - 1.19.9
+        - 1.19.11
+        - 1.19.13
+        - 1.19.14
+        - 1.19.15
+        - 1.19.17
+        - 1.19.18
+        - 1.19.19
+        - 1.20.0
+        - 1.20.3
+        verified: 1.16.19
+      dependencies:
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.19.6
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.19.6
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.imageconversion
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      keywords:
+      - asset
+      - resources
+      - bundle
+      - bundles
+      - assetbundles
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637819852270000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+        revision: 2ac2ed2277c173a9a41ffeafa080525578c38e4f
+        path: 
+    - packageId: com.unity.nuget.newtonsoft-json@2.0.2
+      testable: 0
+      isDirectDependency: 0
+      version: 2.0.2
+      source: 1
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.2
+      assetPath: Packages/com.unity.nuget.newtonsoft-json
+      name: com.unity.nuget.newtonsoft-json
+      displayName: Newtonsoft Json
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
+        Currently synced to version 12.0.301.
+
+
+        This package is used for
+        advanced json serialization and deserialization. Most Unity users will be
+        better suited using the existing json tools built into Unity.
+
+        To
+        avoid assembly clashes, please use this package if you intend to use Newtonsoft
+        Json.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        - 3.0.1
+        - 3.0.2
+        verified: 2.0.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637695695920000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+        revision: 6750e0949a1c9f1e3b6cc063807c95746188319d
+        path: 
+    - packageId: com.unity.scriptablebuildpipeline@1.19.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.19.6
+      source: 1
+      resolvedPath: C:\Users\kekek\Documents\UnityLocalizationTest\Testlocalization\Library\PackageCache\com.unity.scriptablebuildpipeline@1.19.6
+      assetPath: Packages/com.unity.scriptablebuildpipeline
+      name: com.unity.scriptablebuildpipeline
+      displayName: Scriptable Build Pipeline
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Scriptable Build Pipeline moves the asset bundle build pipeline
+        to C#.  Use the pre-defined build flows, or create your own using the divided
+        up APIs.  This system improves build time, fixes incremental build, and provides
+        greater flexibility.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.5-preview
+        - 0.0.6-preview
+        - 0.0.8-preview
+        - 0.0.9-preview
+        - 0.0.10-preview
+        - 0.0.14-preview
+        - 0.0.15-preview
+        - 0.1.0-preview
+        - 0.2.0-preview
+        - 1.0.1-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.2.1-preview
+        - 1.3.5-preview
+        - 1.4.1-preview
+        - 1.5.0-preview
+        - 1.5.1
+        - 1.5.2
+        - 1.5.4
+        - 1.5.6
+        - 1.5.10
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.6.5-preview
+        - 1.7.2
+        - 1.7.3
+        - 1.8.2
+        - 1.8.4
+        - 1.8.6
+        - 1.9.0
+        - 1.10.0
+        - 1.11.1
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.0
+        - 1.14.1
+        - 1.15.1
+        - 1.15.2
+        - 1.16.1
+        - 1.17.0
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        - 1.19.2
+        - 1.19.3
+        - 1.19.4
+        - 1.19.5
+        - 1.19.6
+        - 1.20.1
+        - 1.20.2
+        compatible:
+        - 0.0.5-preview
+        - 0.0.6-preview
+        - 0.0.8-preview
+        - 0.0.9-preview
+        - 0.0.10-preview
+        - 0.0.14-preview
+        - 0.0.15-preview
+        - 0.1.0-preview
+        - 0.2.0-preview
+        - 1.0.1-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.2.1-preview
+        - 1.3.5-preview
+        - 1.4.1-preview
+        - 1.5.0-preview
+        - 1.5.1
+        - 1.5.2
+        - 1.5.4
+        - 1.5.6
+        - 1.5.10
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.6.5-preview
+        - 1.7.2
+        - 1.7.3
+        - 1.8.2
+        - 1.8.4
+        - 1.8.6
+        - 1.9.0
+        - 1.10.0
+        - 1.11.1
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.0
+        - 1.14.1
+        - 1.15.1
+        - 1.15.2
+        - 1.16.1
+        - 1.17.0
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        - 1.19.2
+        - 1.19.3
+        - 1.19.4
+        - 1.19.5
+        - 1.19.6
+        - 1.20.1
+        - 1.20.2
+        verified: 1.15.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - build
+      - bundle
+      - bundles
+      - assetbundles
+      - cache
+      - server
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637800663370000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+        revision: 7430a17e265967737a63efcf96f3e74aef76b8b4
+        path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Unity/Testlocalization/Packages
+m_ProjectPath: C:/Users/kekek/Documents/UnityLocalizationTest/Testlocalization/Packages
 m_EditorVersion: 2020.3.7f1 (dd97f2c94397)
