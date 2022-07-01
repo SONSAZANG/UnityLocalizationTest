@@ -16,15 +16,15 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 8f95bc889e106384c8b070c7910f5b22
   m_Entries:
   - m_Id: 76904656896
-    m_Key: "Key_GuestBook\t"
+    m_Key: Key_Hello
     m_Metadata:
       m_Items: []
   - m_Id: 205296496640
-    m_Key: Key_Meumee
+    m_Key: Key_SONSAZANG
     m_Metadata:
       m_Items: []
   - m_Id: 266982125568
-    m_Key: Key_Edit
+    m_Key: Key_Apple
     m_Metadata:
       m_Items: []
   m_Metadata:

@@ -19,15 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 76904656896
-    m_Localized: GuestBook
+    m_Localized: Hello
     m_Metadata:
       m_Items: []
   - m_Id: 205296496640
-    m_Localized: Meumee
+    m_Localized: SONSAZANG
     m_Metadata:
       m_Items: []
   - m_Id: 266982125568
-    m_Localized: Edit
+    m_Localized: Apple
     m_Metadata:
       m_Items: []
   references:

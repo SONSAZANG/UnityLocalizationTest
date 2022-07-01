@@ -904,11 +904,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "\uBC29\uBA85\uB85D"
+    - m_Text: Hello
       m_Image: {fileID: 0}
-    - m_Text: "\uBBD0\uD3B8\uC9D1"
+    - m_Text: SONSAZANG
       m_Image: {fileID: 0}
-    - m_Text: "\uBBC0\uBBF8"
+    - m_Text: Apple
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -966,9 +966,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textKey: 
   dropdownKey:
-  - guest book
-  - Edit
-  - meumee
+  - Hello
+  - SONSAZANG
+  - Apple
 --- !u!1 &547294619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,7 +1592,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBC29\uBA85\uB85D"
+  m_Text: Hello
 --- !u!222 &1017801941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1819,7 +1819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cab51e316d884f64a8f27f27f1c733f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textKey: Edit
+  textKey: SONSAZANG
   dropdownKey: []
 --- !u!1 &1107809895
 GameObject:

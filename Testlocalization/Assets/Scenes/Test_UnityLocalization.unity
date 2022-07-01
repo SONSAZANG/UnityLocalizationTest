@@ -905,11 +905,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "\uBC29\uBA85\uB85D"
+    - m_Text: Hello
       m_Image: {fileID: 0}
-    - m_Text: "\uBBD0\uD3B8\uC9D1"
+    - m_Text: SONSAZANG
       m_Image: {fileID: 0}
-    - m_Text: "\uBBC0\uBBF8"
+    - m_Text: Apple
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1631,7 +1631,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBC29\uBA85\uB85D"
+  m_Text: Hello
 --- !u!222 &1017801941
 CanvasRenderer:
   m_ObjectHideFlags: 0
